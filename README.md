@@ -1,66 +1,92 @@
-# Laravel Site Audit Tool
+<h1 align="center">⚡ Laravel Site Audit Tool ⚡</h1>
 
-A lightweight Python-based auditing tool for authorized Laravel environment checks.
-Built to help security teams and developers review web deployments at scale with concurrency, logging, and configurable request handling.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Lightweight+Laravel+Audit+Tool;Fast+%7C+Concurrent+%7C+Clean+Workflow;Built+for+Authorized+Internal+Checks" alt="Typing SVG" />
+</p>
 
-## Features
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-1f6feb?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Framework-Laravel-ff2d20?style=for-the-badge&logo=laravel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Status-Active-00c853?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Purpose-Authorized%20Audit-6f42c1?style=for-the-badge" />
+</p>
 
-- Multi-target scanning from a domain list
-- Concurrent requests using thread pools
-- Request rate limiting
-- Custom path checking
-- Result logging to output files
-- Simple and fast CLI workflow
+---
 
-## Use Cases
+## ✨ About
 
-- Internal infrastructure review
-- Staging and production validation
-- Deployment verification
-- Authorized security assessment
+A lightweight Python-based auditing utility for **authorized Laravel environment checks**.  
+Designed for internal validation, deployment review, and controlled security assessment with a fast and simple workflow.
 
-## Requirements
+---
 
-- Python 3.10+
-- requests
-- pymysql
+## 🚀 Highlights
 
-## Installation
+- ⚡ Multi-target processing
+- 🧵 Concurrent requests
+- 🛡️ Request rate limiting
+- 📝 Output logging
+- 🔧 Easy configuration
+- 🎯 Clean command-line workflow
 
+---
+
+## 📦 Requirements
+
+- Python **3.10+**
+- `requests`
+- `PyMySQL`
+
+---
+
+## 🛠️ Installation
+
+```bash
 git clone https://github.com/AnggaTechI/laravel-scanner.git
 cd laravel-scanner
 pip install -r requirements.txt
+```
 
-## Usage
+---
 
-1. Put target domains into list.txt
-2. Run the script:
+## ▶️ Usage
 
-python code.py
+1. Put your target list into `list.txt`
+2. Run:
 
-## Configuration
+```bash
+python laravel-scan.py
+```
 
-You can adjust the main settings inside the script:
+---
 
-- MAX_WORKERS
-- MAX_REQUESTS_PER_SECOND
-- REQUEST_TIMEOUT
-- INPUT_FILE
-- custom paths to audit
+## ⚙️ Configuration
 
-## Output
+Edit the main script to adjust:
 
-The tool stores findings in text-based result files for easier review and triage.
+- `MAX_WORKERS`
+- `MAX_REQUESTS_PER_SECOND`
+- `REQUEST_TIMEOUT`
+- `INPUT_FILE`
 
-## Disclaimer
+---
 
-This project is intended only for authorized testing and internal auditing.
-Do not use it against systems you do not own or do not have explicit permission to assess.
+## 📁 Output
 
-## Contributing
+Results are saved into `.txt` log files for easier review and triage.
 
-Pull requests, issue reports, and improvements are welcome.
+---
 
-## License
+## ⚠️ Disclaimer
 
-For educational and internal authorized use only.
+This project is intended **only for authorized testing and internal auditing**.  
+Do not use it on systems you do not own or do not have explicit permission to assess.
+
+---
+
+## 🌟 Visual Extras
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:6f42c1&height=120&section=footer" />
+</p>
+
