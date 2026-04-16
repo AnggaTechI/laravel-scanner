@@ -84,9 +84,4 @@ Do not use it on systems you do not own or do not have explicit permission to as
 
 ---
 
-## 🌟 Visual Extras
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:6f42c1&height=120&section=footer" />
-</p>
 
